@@ -15,21 +15,21 @@ const e = () => {}
 
 //vytvořte funkci která vrací součet dvou parametrů
 const f = (a, b) => a + b;
-const g = () => {
+function g (a, b) {
     return a + b;
 }
 
 //vytvořte pole ktere obsahuje 10 různých hodnot
-let pole = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 //vypište z pole třetí prvek
-console.log(pole[2])
+console.log(array[2])
 
 //přepište v poli první prvek
-pole[0] = 2
+array[0] = 2
 
 //projeďte pole pomocí funkce map
-pole.map((value, index ) => {
+array.map((value, index ) => {
     console.log(value)
     console.log(index)
 })
