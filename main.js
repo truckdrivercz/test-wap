@@ -77,5 +77,7 @@ console.log(myObject.name)
 console.log(myObject.age)
 
 //vysvětlete rozdíl mezi == a ===
+// == porovnává jen hodnotu  a === porovnává hodnotu a datový typ
 
 //vysvětlete async a await
+//asyns - označujeme funkce že bude asynchroní, await - uvnitř asynchronní funkce - čeká na určitý promiss
